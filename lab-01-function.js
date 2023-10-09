@@ -15,3 +15,7 @@ function dientichhcn(chieudai,chieurong){
 }
 const dientich1 = dientichhcn(2,3)
 console.log("dien tich = ",dientich1)
+
+module.exports = {
+    dientichhcn
+}
