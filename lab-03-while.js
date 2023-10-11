@@ -112,7 +112,7 @@ while(arr[i] !== undefined) {
     let j = i + 1
 
     while(arr[j] !== undefined) {
-        if (arr[i] < arr[j]) {
+        if (arr[i] > arr[j]) {
             let tam = arr[i]
             arr[i] = arr[j]
             arr[j] = tam
